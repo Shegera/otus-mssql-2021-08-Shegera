@@ -256,7 +256,11 @@ JOIN
 WHERE
 	i.InvoiceDate IS NOT NULL
 GROUP BY
-	i.InvoiceDate
+	YEAR (i.InvoiceDate),
+	MONTH (i.InvoiceDate)	
+ORDER BY 
+	[Year],
+	[Month]
 
 /*
 8. Отобразить все месяцы, где общая сумма продаж превысила 10 000

@@ -39,6 +39,7 @@ USE WideWorldImporters
 Существующие записи в таблице обновить, отсутствующие добавить (сопоставлять записи по полю StockItemName). 
 */
 
+
 BEGIN TRAN
 
 DECLARE @XML	AS XML

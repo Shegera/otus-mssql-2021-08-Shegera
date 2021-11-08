@@ -1,6 +1,6 @@
 -- 1. задание
 
-DROP FUNCTION IF EXISTS dbo.sp_BestCustomer 
+DROP PROC IF EXISTS dbo.sp_BestCustomer 
 GO
 ;
 
@@ -27,7 +27,7 @@ BEGIN
 END;
 GO
 
-
+EXEC [dbo].[sp_BestCustomer]
 
 -------------------------------------------------------------------------------------------------------------------
 -- 2. задание
@@ -50,6 +50,8 @@ BEGIN
 	WHERE
 		Invoices.CustomerID = @CustomerID
 END;
+
+
 
 EXEC dbo.sp_AllSalesCustomers @CustomerID = 1
 GO

@@ -95,11 +95,12 @@ BEGIN
 	ORDER BY 
 		CAST (FORMAT (Invoices.InvoiceDate, '01.MM.yyyy') AS DATE)
 END	;
-GO;
+GO
+
 
 DROP FUNCTION IF EXISTS dbo.fn_CustomerInvoices;
 GO
-;
+
 
 CREATE FUNCTION dbo.fn_CustomerInvoices (@CustomerID INT)
 	RETURNS TABLE 

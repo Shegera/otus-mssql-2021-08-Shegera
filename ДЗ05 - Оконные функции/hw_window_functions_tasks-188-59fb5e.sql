@@ -182,8 +182,8 @@ WITH t AS
 	SELECT
 		SalesPerson.PersonID AS SalesPersonID,
 		SalesPerson.FullName AS SalesFullName,
-		Customer.PersonID AS CustomerID,
-		Customer.FullName AS CustomerFullName,
+		Customer.CustomerID AS CustomerID,
+		Customer.CustomerName AS CustomerName,
 		Invoices.InvoiceDate,
 		SUM(InvoiceLines.ExtendedPrice) OVER (PARTITION BY Invoices.InvoiceID) AS a,
 		ROW_NUMBER() OVER(PARTITION BY SalesPerson.PersonID ORDER BY Invoices.InvoiceDate DESC) AS b
@@ -196,14 +196,14 @@ WITH t AS
 		Application.People AS SalesPerson ON
 		SalesPerson.PersonID = Invoices.SalespersonPersonID
 	JOIN
-		Application.People AS Customer ON
-		Customer.PersonID = Invoices.CustomerID
+		Sales.Customers AS Customer ON
+		Customer.CustomerID = Invoices.CustomerID
 )
 SELECT
 	t.SalesPersonID,
 	t.SalesFullName,
 	t.CustomerID,
-	t.CustomerFullName,
+	t.CustomerName,
 	t.a
 FROM
 	t
@@ -219,28 +219,28 @@ WHERE
 WITH t AS
 (
 	SELECT
-		People.PersonID,
-		People.FullName,
+		Customers.CustomerID,
+		Customers.CustomerName,
 		DENSE_RANK() OVER (
 			PARTITION BY 
-			People.PersonID
+			Customers.CustomerID
 			--,	InvoiceLines.StockItemID 
 			ORDER BY InvoiceLines.ExtendedPrice DESC) AS m,
 		InvoiceLines.StockItemID,
 		InvoiceLines.ExtendedPrice,
 		Invoices.InvoiceDate
 	FROM
-		Application.People
+		Sales.Customers
 	JOIN
 		Sales.Invoices ON
-		Invoices.CustomerID = People.PersonID
+		Invoices.CustomerID = Customers.CustomerID
 	JOIN
 		Sales.InvoiceLines ON
 		InvoiceLines.InvoiceID = Invoices.InvoiceID
 )
 SELECT
-	t.PersonID,
-	t.FullName,
+	t.CustomerID,
+	t.CustomerName,
 	t.StockItemID,
 	t.ExtendedPrice,
 	t.InvoiceDate
@@ -249,6 +249,6 @@ FROM
 WHERE
 	t.m <= 2
 ORDER BY 
-	t.PersonID,
+	t.CustomerID,
 	t.m,
 	t.InvoiceDate

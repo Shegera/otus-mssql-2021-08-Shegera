@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employees>
+	<Employee Nick="AMolotov">
+		<SurName>Молотов</SurName>	
+		<FirstName>Александр</FirstName>
+		<SecondName>Михайлович</SecondName>
+		<FullName>Молотов Александр Михайлович</FullName>
+		<BirthDate>1978-04-21</BirthDate>	
+	</Employee>
+	<Employee Nick="OReshetnikova">
+		<SurName>Решетникова</SurName>	
+		<FirstName>Ольга</FirstName>
+		<SecondName>Сергеевна</SecondName>
+		<FullName>Решетникова Ольга Сергеевна</FullName>	
+		<BirthDate>1989-06-14</BirthDate>
+	</Employee>
+	<Employee Nick="IIvanov">
+		<SurName>Иванов</SurName>	
+		<FirstName>Иван</FirstName>
+		<SecondName>Иванович</SecondName>
+		<FullName>Иванов Иван Иванович</FullName>
+		<BirthDate>1980-01-01</BirthDate>
+	</Employee>
+	<Employee Nick="KSvistunov">
+		<SurName>Свистунов</SurName>	
+		<FirstName>Константин</FirstName>
+		<SecondName>Олегович</SecondName>
+		<FullName>Свистунов Константин Олегович</FullName>
+		<BirthDate>1990-05-04</BirthDate>
+	</Employee>
+	<Employee Nick="ESorokina">
+		<SurName>Сорокина</SurName>	
+		<FirstName>Елена</FirstName>
+		<SecondName>Викторовна</SecondName>
+		<FullName>Сорокина Елена Викторовна</FullName>
+		<BirthDate>1985-02-02</BirthDate>
+	</Employee>
+</Employees>

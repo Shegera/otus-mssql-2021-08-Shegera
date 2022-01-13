@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Contracts>
+	<Contract ContractID="1">
+		<ContractTypeID>1</ContractTypeID>
+		<ContractNumber>Т-1/2021</ContractNumber> 
+		<ContractDate>2021-04-03</ContractDate> 
+		<ManagerID>1</ManagerID>
+		<Summary>Договора на поставку пластелиновых кирпичей</Summary>
+		<ContractStartDate>2021-04-10</ContractStartDate>
+		<ContractEndDate>2022-04-10</ContractEndDate>
+		<Indefinite>0</Indefinite>  
+		<OrganisationID>1</OrganisationID>
+		<PartnerID>1</PartnerID>		
+	</Contract>
+	<Contract ContractID="2">
+		<ContractTypeID>1</ContractTypeID>
+		<ContractNumber>Т-2/2021</ContractNumber> 
+		<ContractDate>2021-05-07</ContractDate>
+		<ManagerID>2</ManagerID> 	
+		<Summary>Договора на круглых линеек</Summary>
+		<ContractStartDate>2021-05-10</ContractStartDate>
+		<ContractEndDate>2022-05-10</ContractEndDate>
+		<Indefinite>0</Indefinite>  
+		<OrganisationID>1</OrganisationID>
+		<PartnerID>2</PartnerID>		
+	</Contract>
+	<Contract ContractID="3">
+		<ContractTypeID>1</ContractTypeID>
+		<ContractNumber>Т-3/2021</ContractNumber> 
+		<ContractDate>2021-06-12</ContractDate> 
+		<ManagerID>3</ManagerID> 	
+		<Summary>Договора резиновых гвоздей</Summary>
+		<ContractStartDate>2021-06-16</ContractStartDate>
+		<ContractEndDate>2021-09-16</ContractEndDate>
+		<Indefinite>0</Indefinite>  
+		<OrganisationID>1</OrganisationID>
+		<PartnerID>3</PartnerID>		
+	</Contract>
+	<Contract ContractID="4">
+		<ContractTypeID>2</ContractTypeID>
+		<ContractNumber>Н-1/2021</ContractNumber> 
+		<ContractDate>2021-05-20</ContractDate> 
+		<ManagerID>4</ManagerID> 	
+		<Summary>Консультационные услуги по закручиванию гаек</Summary>
+		<ContractStartDate>2021-05-25</ContractStartDate>
+		<ContractEndDate>2021-08-25</ContractEndDate>
+		<Indefinite>0</Indefinite>  
+		<OrganisationID>2</OrganisationID>
+		<PartnerID>1</PartnerID>		
+	</Contract>
+	<Contract ContractID="5">
+		<ContractTypeID>2</ContractTypeID>
+		<ContractNumber>Н-2/2021</ContractNumber> 
+		<ContractDate>2021-05-21</ContractDate> 
+		<ManagerID>5</ManagerID> 	
+		<Summary>Консультационные услуги по раскручиванию гаек</Summary>
+		<ContractStartDate>2021-05-25</ContractStartDate>
+		<ContractEndDate>2021-08-25</ContractEndDate>
+		<Indefinite>0</Indefinite>  
+		<OrganisationID>2</OrganisationID>
+		<PartnerID>1</PartnerID>		
+	</Contract>
+	<Contract ContractID="6">
+		<ContractTypeID>1</ContractTypeID>
+		<ContractNumber>Т-4/2021</ContractNumber> 
+		<ContractDate>2021-10-01</ContractDate> 
+		<ManagerID>5</ManagerID> 	
+		<Summary>Договора на поставку специального оборудования</Summary>
+		<ContractStartDate>2021-10-02</ContractStartDate>
+		<ContractEndDate>2022-10-02</ContractEndDate>
+		<Indefinite>0</Indefinite>  
+		<OrganisationID>1</OrganisationID>
+		<PartnerID>1</PartnerID>		
+	</Contract>
+	<Contract ContractID="7">
+		<ContractTypeID>1</ContractTypeID>
+		<ContractNumber>Т-5/2021</ContractNumber> 
+		<ContractDate>2021-10-01</ContractDate> 
+		<ManagerID>5</ManagerID> 	
+		<Summary>Договора на поставку мягких мечей</Summary>
+		<ContractStartDate>2021-10-02</ContractStartDate>
+		<ContractEndDate>2022-10-02</ContractEndDate>
+		<Indefinite>0</Indefinite>  
+		<OrganisationID>3</OrganisationID>
+		<PartnerID>3</PartnerID>		
+	</Contract>
+	<Contract ContractID="8">
+		<ContractTypeID>1</ContractTypeID>
+		<ContractNumber>Т-6/2021</ContractNumber> 
+		<ContractDate>2021-10-01</ContractDate> 
+		<ManagerID>3</ManagerID> 	
+		<Summary>Договора на поставку каменных спецовок</Summary>
+		<ContractStartDate>2021-10-02</ContractStartDate>
+		<ContractEndDate>2022-10-02</ContractEndDate>
+		<Indefinite>0</Indefinite>  
+		<OrganisationID>3</OrganisationID>
+		<PartnerID>3</PartnerID>		
+	</Contract>
+	<Contract ContractID="9">
+		<ContractTypeID>1</ContractTypeID>
+		<ContractNumber>Т-7/2021</ContractNumber> 
+		<ContractDate>2021-10-01</ContractDate> 
+		<ManagerID>4</ManagerID> 	
+		<Summary>Договора на поставку деверянных саморезов</Summary>
+		<ContractStartDate>2021-10-02</ContractStartDate>
+		<ContractEndDate>2022-10-02</ContractEndDate>
+		<Indefinite>0</Indefinite>  
+		<OrganisationID>3</OrganisationID>
+		<PartnerID>3</PartnerID>		
+	</Contract>
+</Contracts>

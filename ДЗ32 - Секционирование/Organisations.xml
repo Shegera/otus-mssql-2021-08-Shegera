@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Organisations>
+	<Organisation INN="123456789012">
+		<OrganisationName>ООО "Веселые ребята"</OrganisationName>	
+		<OrganisationFullName>Общество с ограниченной ответственностью "Веселые ребята"</OrganisationFullName>
+		<KPP>1122334455</KPP>
+	</Organisation>
+	<Organisation INN="111111111111">
+		<OrganisationName>ООО "Серьезные парни"</OrganisationName>	
+		<OrganisationFullName>Общество с ограниченной ответственностью "Серьезные парни"</OrganisationFullName>
+		<KPP>2222222222</KPP>
+	</Organisation>
+	<Organisation INN="123123123123">
+		<OrganisationName>ЗАО "Тертый калач"</OrganisationName>	
+		<OrganisationFullName>Закрытое акционерное общество "Тертый калач"</OrganisationFullName>
+		<KPP>3213213213</KPP>
+	</Organisation>
+</Organisations>

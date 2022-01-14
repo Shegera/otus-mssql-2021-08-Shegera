@@ -1,0 +1,13 @@
+
+USE WideWorldImporters
+
+
+CREATE TABLE [ReportCustomerOrders]
+(
+	ID BIGINT NOT NULL IDENTITY(1,1) CONSTRAINT PK_ReportCustomerOrders_ID PRIMARY KEY CLUSTERED (ID),
+	DT DATETIME2 NOT NULL DEFAULT GETDATE(),
+	CustomerID INT NOT NULL CONSTRAINT FK_ReportCustomerOrders_CustomerID FOREIGN KEY (CustomerID) REFERENCES sales.Customers (CustomerID),
+	OrdersCount INT NOT NULL,
+	DateFrom DATETIME2 NOT NULL,
+	DateTo DATETIME2 NOT NULL
+)

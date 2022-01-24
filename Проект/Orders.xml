@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Orders>
+	<Order OrderID="1">
+		<ContractID>1</ContractID>
+		<OrderNumber>Т-1/2021/ЗК-1</OrderNumber> 
+		<OrderDate>2021-04-10</OrderDate>
+		<ManagerID>6</ManagerID> 	
+	</Order>
+	<Order OrderID="2">
+		<ContractID>1</ContractID>
+		<OrderNumber>Т-1/2021/ЗК-2</OrderNumber> 
+		<OrderDate>2021-06-10</OrderDate>
+		<ManagerID>6</ManagerID> 	
+	</Order>
+	<Order OrderID="3">
+		<ContractID>2</ContractID>
+		<OrderNumber>Т-2/2021/ЗК-1</OrderNumber> 
+		<OrderDate>2021-05-10</OrderDate>
+		<ManagerID>7</ManagerID> 	
+	</Order>
+	<Order OrderID="4">
+		<ContractID>2</ContractID>
+		<OrderNumber>Т-2/2021/ЗК-2</OrderNumber> 
+		<OrderDate>2021-05-10</OrderDate>
+		<ManagerID>3</ManagerID> 	
+	</Order>
+	<Order OrderID="5">
+		<ContractID>2</ContractID>
+		<OrderNumber>Т-2/2021/ЗК-3</OrderNumber> 
+		<OrderDate>2021-06-12</OrderDate>
+		<ManagerID>7</ManagerID> 	
+	</Order>
+	<Order OrderID="6">
+		<ContractID>3</ContractID>
+		<OrderNumber>Т-3/2021/ЗК-1</OrderNumber> 
+		<OrderDate>2021-06-20</OrderDate>
+		<ManagerID>3</ManagerID> 	
+	</Order>
+	<Order OrderID="7">
+		<ContractID>3</ContractID>
+		<OrderNumber>Т-3/2021/ЗК-2</OrderNumber> 
+		<OrderDate>2021-07-08</OrderDate>
+		<ManagerID>3</ManagerID> 	
+	</Order>
+	<Order OrderID="8">
+		<ContractID>4</ContractID>
+		<OrderNumber>Т-4/2021/ЗК-1</OrderNumber> 
+		<OrderDate>2021-05-26</OrderDate>
+		<ManagerID>4</ManagerID> 	
+	</Order>
+	<Order OrderID="9">
+		<ContractID>6</ContractID>
+		<OrderNumber>Т-6/2021/ЗК-1</OrderNumber> 
+		<OrderDate>2021-10-10</OrderDate>
+		<ManagerID>5</ManagerID> 	
+	</Order>
+	<Order OrderID="10">
+		<ContractID>6</ContractID>
+		<OrderNumber>Т-6/2021/ЗК-2</OrderNumber> 
+		<OrderDate>2021-10-10</OrderDate>
+		<ManagerID>5</ManagerID> 	
+	</Order>
+	<Order OrderID="11">
+		<ContractID>6</ContractID>
+		<OrderNumber>Т-6/2021/ЗК-2</OrderNumber> 
+		<OrderDate>2021-10-10</OrderDate>
+		<ManagerID>5</ManagerID> 	
+	</Order>
+	<Order OrderID="12">
+		<ContractID>6</ContractID>
+		<OrderNumber>Т-6/2021/ЗК-2</OrderNumber> 
+		<OrderDate>2021-10-11</OrderDate>
+		<ManagerID>5</ManagerID> 	
+	</Order>
+</Orders>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partners>
+	<Partner INN="123456789012">
+		<PartnerName>ООО "Веселые ребята"</PartnerName>	
+		<PartnerFullName>Общество с ограниченной ответственностью "Веселые ребята"</PartnerFullName>
+		<KPP>1122334455</KPP>
+	</Partner>
+	<Partner INN="111111111111">
+		<PartnerName>ООО "Серьезные парни"</PartnerName>	
+		<PartnerFullName>Общество с ограниченной ответственностью "Серьезные парни"</PartnerFullName>
+		<KPP>2222222222</KPP>
+	</Partner>
+	<Partner INN="123123123123">
+		<PartnerName>ЗАО "Тертый калач"</PartnerName>	
+		<PartnerFullName>Закрытое акционерное общество "Тертый калач"</PartnerFullName>
+		<KPP>3213213213</KPP>
+	</Partner>
+	<Partner INN="123456123456">
+		<PartnerName>ООО "Карусель"</PartnerName>	
+		<PartnerFullName>Общество с ограниченной ответственностью "Карусель"</PartnerFullName>
+		<KPP>1212121212</KPP>
+	</Partner>
+	<Partner INN="123412341234">
+		<PartnerName>ООО "Веселые истории"</PartnerName>	
+		<PartnerFullName>Общество с ограниченной ответственностью "Веселые истории"</PartnerFullName>
+		<KPP>1313131313</KPP>
+	</Partner>
+	<Partner INN="222222222222">
+		<PartnerName>ООО "На все деньги"</PartnerName>	
+		<PartnerFullName>Общество с ограниченной ответственностью "На все деньги"</PartnerFullName>
+		<KPP>1414141414</KPP>
+	</Partner>
+	<Partner INN="333333333333">
+		<PartnerName>ООО "Ручная работа"</PartnerName>	
+		<PartnerFullName>Общество с ограниченной ответственностью "Ручная работа"</PartnerFullName>
+		<KPP>1515151515</KPP>
+	</Partner>
+	<Partner INN="444444444444">
+		<PartnerName>ООО "Удача"</PartnerName>	
+		<PartnerFullName>Общество с ограниченной ответственностью "Удача"</PartnerFullName>
+		<KPP>1616161616</KPP>
+	</Partner>
+</Partners>

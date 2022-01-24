@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectRoutes>
+	<RouteName RouteName = "Сотрудники"></RouteName>
+	<RouteName RouteName = "Организации"></RouteName>
+	<RouteName RouteName = "Контрагенты"></RouteName>
+	<RouteName RouteName = "Договоры"></RouteName>
+	<RouteName RouteName = "Номенклатуры"></RouteName>
+	<RouteName RouteName = "Заказы"></RouteName>
+	<RouteName RouteName = "Позиции заказа"></RouteName>
+</ObjectRoutes>

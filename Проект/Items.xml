@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items>
+	<Item ItemID="1">
+		<ItemName>Пластелиновый кирпичи</ItemName> 
+		<UnitPrice>10.5</UnitPrice> 	
+	</Item>
+	<Item ItemID="2">
+		<ItemName>Круглая линейка</ItemName> 
+		<UnitPrice>23</UnitPrice> 	
+	</Item>
+	<Item ItemID="3">
+		<ItemName>Резиновые гвозди</ItemName> 
+		<UnitPrice>50.5</UnitPrice> 	
+	</Item>
+	<Item ItemID="4">
+		<ItemName>Консультационные услуги по закручиванию гаек</ItemName> 
+		<UnitPrice>10000</UnitPrice> 	
+	</Item>
+	<Item ItemID="5">
+		<ItemName>Консультационные услуги по раскручиванию гаек</ItemName> 
+		<UnitPrice>25000</UnitPrice> 	
+	</Item>
+	<Item ItemID="6">
+		<ItemName>Паралоновый молоток</ItemName> 
+		<UnitPrice>67.5</UnitPrice> 	
+	</Item>
+	<Item ItemID="7">
+		<ItemName>Мягкий меч</ItemName> 
+		<UnitPrice>999.99</UnitPrice> 	
+	</Item>
+	<Item ItemID="8">
+		<ItemName>Силиконовая отверток</ItemName> 
+		<UnitPrice>500</UnitPrice> 	
+	</Item>
+	<Item ItemID="9">
+		<ItemName>Надувная лопата</ItemName> 
+		<UnitPrice>10</UnitPrice> 	
+	</Item>
+	<Item ItemID="10">
+		<ItemName>Тех надзор</ItemName> 
+		<UnitPrice>10000</UnitPrice> 	
+	</Item>
+	<Item ItemID="11">
+		<ItemName>Растявший лед</ItemName> 
+		<UnitPrice>10</UnitPrice> 	
+	</Item>
+	<Item ItemID="12">
+		<ItemName>Алюминевые огурцы</ItemName> 
+		<UnitPrice>25</UnitPrice> 	
+	</Item>
+	<Item ItemID="13">
+		<ItemName>Деверянные саморезы</ItemName> 
+		<UnitPrice>40</UnitPrice> 	
+	</Item>
+	<Item ItemID="14">
+		<ItemName>Чугунные скороходы</ItemName> 
+		<UnitPrice>90</UnitPrice> 	
+	</Item>
+	<Item ItemID="15">
+		<ItemName>Каменные спецовки</ItemName> 
+		<UnitPrice>250</UnitPrice> 	
+	</Item>
+</Items>
